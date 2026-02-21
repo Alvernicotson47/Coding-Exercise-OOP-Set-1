@@ -2,19 +2,19 @@ import java.util.Scanner;
 
 public class CE02 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter a:");
-        double a = input.nextDouble(); 
+        double a = sc.nextDouble(); 
         System.out.println("Enter b:");
-        double b = input.nextDouble();
+        double b = sc.nextDouble();
         System.out.println("Enter c:");
-        double c = input.nextDouble();
+        double c = sc.nextDouble();
         System.out.println("Enter d:");
-        double d = input.nextDouble();
+        double d = sc.nextDouble();
         System.out.println("Enter e:");
-        double e = input.nextDouble();
+        double e = sc.nextDouble();
         System.out.println("Enter f:");
-        double f = input.nextDouble();
+        double f = sc.nextDouble();
         double D = (a * d) - (b * c);
         double Dx = (e * d) - (b * f);
         double Dy = (a * f) - (e * c);
@@ -27,7 +27,6 @@ public class CE02 {
             System.out.printf("x = %.2f\n", x);
             System.out.printf("y = %.2f\n", y);
         }
-
-        input.close();
     }
 }
+
