@@ -13,7 +13,8 @@ public class CE05{
             double area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
             System.out.printf("Area of the triangle: %.2f\n", area);
         } else {
-            System.out.println("The given sides do not form a valid triangle.");
+            System.out.println("Invalid");
         }
     }
 }
+
